@@ -157,19 +157,4 @@ succeed. Get in touch to hear more on how we can help you achieve your goals.</p
 			</div>
 		</div>
 	</div>
-	<div class="container mt-3 mt-md-5">
-		<div class="row justify-content-center">
-			<div class="col-12 col-md-10 row justify-content-center align-items-md-center">
-				<div class="col-10 col-md-4 text-center">
-					<div class="img-container">
-						<img src="img/placeholder-2.png" alt="contact graphic">
-					</div>
-				</div>
-				<div class="col-12 col-md-8 mt-3 mt-md-0">
-					<h2 class="primary-text mb-3 mb-md-0">Intersted in becoming a TAG Regional Partner?</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna</p>
-				</div>
-			</div>
-		</div>
-	</div>
 </div>

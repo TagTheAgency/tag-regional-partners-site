@@ -26,6 +26,16 @@ p{
 	line-height: 25px;
 }
 
+a{
+    color: inherit;
+    text-decoration: none;
+    transition-duration: 300ms;
+
+    &:hover{
+        opacity: 0.4;
+    }
+}
+
 hr{
     height: 1px !important;
     background-color: $primaryColor;
@@ -38,12 +48,48 @@ hr{
 	background-color: $primaryColor;
 }
 
+.secondary{
+    background-color: $secondaryColor;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}
+
 .primary-text{
 	color: $primaryColor;
 }
 
+.secondary-text{
+	color: $secondaryColor;
+}
+
 .text-white{
  color: #fff;
+}
+
+.text-black{
+ color: #000;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.pointer{
+    cursor: pointer;
 }
 
 .img-container{
@@ -54,6 +100,55 @@ hr{
 
 .fixed{
     position: fixed;
+}
+
+.transparent{
+    opacity: 0.2;
+}
+
+// ============================
+// BUTTON STYLES
+// ============================
+
+.hover{
+    transition-duration: 300ms;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.4;
+    }
+}
+
+.button{
+    padding: 12px 35px;
+    border: 3px solid $primaryColor;
+    display: inline-block;
+    border-radius: 30px;
+    transition-duration: 200ms;
+    cursor: pointer;
+
+    &:hover{
+        box-shadow: 0 2px 8px 3px rgba(#000000, 0.20);
+    }
+}
+
+
+.button-filled{
+    background-color: $primaryColor;
+    color: #fff;
+
+    &:hover{
+        background-color: lighten($primaryColor, 10%);
+        border-color: lighten($primaryColor, 10%);
+    }
+}
+
+.button-outline{
+    color: $primaryColor;
+
+    &:hover{
+        background-color: $primaryColor;
+        color: #fff;
+    }
 }
 
 // ============================
@@ -70,6 +165,7 @@ hr{
 	height: 100vh;
 	background-color: $primaryColor;
 	position: fixed;
+    box-shadow: 2px 0 3px rgba(#000, 0.15);
 }
 
 .nav-item{
@@ -90,12 +186,75 @@ hr{
 	cursor: pointer;
 }
 
+.nav-menu-popup-container{
+    z-index: 40;
+    display: none;
+}
+
+.nav-menu-popup{
+    z-index: 50;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    box-shadow: 2px 0 3px rgba(#000, 0.15);
+
+    ul{
+        list-style-type: none;
+
+        li{
+            margin-bottom: 50px;
+            font-size: 1.3em;
+        }
+    }
+}
+
+.overlay{
+    background-color: rgba(#000000, 0.60);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    // z-index: 10;
+}
+
 // ============================
 // MOBILE NAV
 // ============================
 
 .mobile-nav{
     z-index: 20;
+}
+
+// ============================
+// NAV MENU
+// ============================
+
+.active-page{
+    font-weight: bold;
+}
+
+.close-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    transition-duration: 300ms;
+
+    &:hover{
+        background-color: #fff;
+        color: $primaryColor;
+    }
+
+}
+
+.menu-logo{
+    border: 3px solid #fff;
+    display: inline-block;
+    padding: 8px 14px;
 }
 
 // ============================
@@ -118,4 +277,74 @@ hr{
 		margin-bottom: 5px;
 		color: $primaryColor;
 	}
+}
+
+.region{
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+// ============================
+// FOOTER
+// ============================
+
+footer{
+
+    font-size: 0.8em;
+
+    ul{
+        list-style-type: none;
+
+        li{
+            display: inline-block;
+        }
+    }
+
+    .secondary{
+        background-color: lighten($secondaryColor, 45%);
+    }
+
+    .secondary-text{
+        color: $secondaryColor;
+    }
+}
+
+// ============================
+// CONTACT
+// ============================
+
+.contact-popup-container{
+    display: none;
+    z-index: 40;
+}
+
+.form-style{
+    color: $secondaryColor;
+    border: none;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-bottom: 1px solid $secondaryColor;
+    font-size: 0.9em;
+    outline: none;
+
+    &:focus{
+        border-width: 3px;
+
+        &::placeholder{
+            opacity: 1;
+        }
+    }
+
+    &::placeholder{
+        opacity: 0.5;
+        color: $secondaryColor;
+    }
+}
+
+.contact-popup{
+    h4{
+        font-weight: 600;
+        font-size: 2em !important;
+    }
 }
