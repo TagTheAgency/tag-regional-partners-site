@@ -1,19 +1,31 @@
 $(function() {
     // Get the form.
-    var form = $('#contact-me');
+    var contactForm = $('#contact-me');
+    var regionForm = $('#region-form');
 
     // Get the messages div.
-	$(form).submit(function(event) {
+	$(contactForm).submit(function(event) {
         // Stop the browser from submitting the form.
         event.preventDefault();
 
-    	var formData = $(form).serialize();
+    	var contactFormData = $(contactForm).serialize();
 
     	$.ajax({
     	    type: 'POST',
-    	    url: $(form).attr('action'),
-    	    data: formData
+    	    url: $(contactForm).attr('action'),
+    	    data: contactFormData
     	});
+	});
 
+	$(regionForm).submit(function(event) {
+        event.preventDefault();
+
+    	var regionFormData = $(regionForm).serialize();
+
+    	$.ajax({
+    	    type: 'POST',
+    	    url: $(regionForm).attr('action'),
+    	    data: regionFormData
+    	});
 	});
 });

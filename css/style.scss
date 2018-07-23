@@ -88,6 +88,10 @@ hr{
     text-align: center;
 }
 
+.capitalize{
+    text-transform: capitalize;
+}
+
 .pointer{
     cursor: pointer;
 }
@@ -104,6 +108,11 @@ hr{
 
 .transparent{
     opacity: 0.2;
+}
+
+.region-unavailable{
+    opacity: 0.4;
+    pointer-events: none;
 }
 
 // ============================
@@ -232,6 +241,11 @@ hr{
 
 .active-page{
     font-weight: bold;
+
+    a{
+        padding-bottom: 6px;
+        border-bottom: 3px solid #fff;
+    }
 }
 
 .close-menu{
@@ -313,7 +327,7 @@ footer{
 // CONTACT
 // ============================
 
-.contact-popup-container{
+.contact-popup-container, .region-popup-container{
     display: none;
     z-index: 40;
 }

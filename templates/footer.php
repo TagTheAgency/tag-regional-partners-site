@@ -26,7 +26,7 @@
 						<li class="mr-2 mr-md-5"><a href="<?= $path ?>">Home</a></li>
 						<li class="mr-2 mr-md-5"><a href="<?= $path ?>about">About</a></li>
 						<li class="mr-2 mr-md-5 hover" data-popup-open="contact-popup">Contact</li>
-						<li><a href="#">TAG The Agency</a></li>
+						<li><a href="https://tagtheagency.com" target="_blank">TAG The Agency</a></li>
 					</ul>
 					<span id="top-btn" class="hover col-12 col-md-auto mt-3 mt-md-0">To Top</span>
 				</div>

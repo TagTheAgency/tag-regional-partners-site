@@ -70,63 +70,63 @@ succeed. Get in touch to hear more on how we can help you achieve your goals.</p
 				<div class="col-12 text-center">
 					<h2 class="primary-text px-md-5 mb-3">We are currently looking for regional partners in:</h2>
 				</div>
-				<div class="col-10 col-md-4 p-4 p-md-5 text-center region">
+				<div id="Auckland" class="col-10 col-md-4 p-4 p-md-5 text-center region" data-popup-open="region-popup">
 					<div class="img-container px-lg-4">
 						<img src="img/Regional Partners Icons Outlined-01.png" alt="">
 					</div>
 					<h3 class="secondary-text">Auckland</h3>
 					<p>New Zealand</p>
 				</div>
-				<div class="col-10 col-md-4 p-4 p-md-5 text-center region">
+				<div id="Christchurch" class="col-10 col-md-4 p-4 p-md-5 text-center region" data-popup-open="region-popup">
 					<div class="img-container px-lg-4">
 						<img src="img/Regional Partners Icons Outlined-02.png" alt="">
 					</div>
 					<h3 class="secondary-text">Christchurch</h3>
 					<p>New Zealand</p>
 				</div>
-				<div class="col-10 col-md-4 p-4 p-md-5 text-center region">
+				<div id="Adelaide" class="col-10 col-md-4 p-4 p-md-5 text-center region" data-popup-open="region-popup">
 					<div class="img-container px-lg-4">
 						<img src="img/Regional Partners Icons Outlined-03.png" alt="">
 					</div>
 					<h3 class="secondary-text">Adelaide</h3>
 					<p>Australia</p>
 				</div>
-				<div class="col-10 col-md-4 p-4 p-md-5 text-center region">
+				<div id="Brisbane" class="col-10 col-md-4 p-4 p-md-5 text-center region" data-popup-open="region-popup">
 					<div class="img-container px-lg-4">
 						<img src="img/Regional Partners Icons Outlined-04.png" alt="">
 					</div>
 					<h3 class="secondary-text">Brisbane</h3>
 					<p>Australia</p>
 				</div>
-				<div class="col-10 col-md-4 p-4 p-md-5 text-center region">
+				<div id="Melbourne" class="col-10 col-md-4 p-4 p-md-5 text-center region" data-popup-open="region-popup">
 					<div class="img-container px-lg-4">
 						<img src="img/Regional Partners Icons Outlined-05.png" alt="">
 					</div>
 					<h3 class="secondary-text">Melbourne</h3>
 					<p>Australia</p>
 				</div>
-				<div class="col-10 col-md-4 p-4 p-md-5 text-center region">
+				<div id="Sydney" class="col-10 col-md-4 p-4 p-md-5 text-center region region-unavailable">
 					<div class="img-container px-lg-4">
 						<img src="img/Regional Partners Icons Outlined-06.png" alt="">
 					</div>
 					<h3 class="secondary-text">Sydney</h3>
-					<p>Australia</p>
+					<p>Taken</p>
 				</div>
-				<div class="col-10 col-md-4 p-4 p-md-5 text-center region">
+				<div id="Singapore" class="col-10 col-md-4 p-4 p-md-5 text-center region" data-popup-open="region-popup">
 					<div class="img-container px-lg-4">
 						<img src="img/Regional Partners Icons Outlined-07.png" alt="">
 					</div>
 					<h3 class="secondary-text">Singapore</h3>
 					<p>Malaysia</p>
 				</div>
-				<div class="col-10 col-md-4 p-4 p-md-5 text-center region">
+				<div id="New-York" class="col-10 col-md-4 p-4 p-md-5 text-center region" data-popup-open="region-popup">
 					<div class="img-container px-lg-4">
 						<img src="img/Regional Partners Icons Outlined-08.png" alt="">
 					</div>
 					<h3 class="secondary-text">New York</h3>
 					<p>USA</p>
 				</div>
-				<div class="col-10 col-md-4 p-4 p-md-5 text-center region">
+				<div id="San-Francisco" class="col-10 col-md-4 p-4 p-md-5 text-center region" data-popup-open="region-popup">
 					<div class="img-container px-lg-4">
 						<img src="img/Regional Partners Icons Outlined-09.png" alt="">
 					</div>

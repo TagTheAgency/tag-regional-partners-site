@@ -8,7 +8,7 @@
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["message"]);
 		$recipient = 'charlie@tagtheagency.com';
-        $region;
+        $region = trim($_POST["region"]);;
 
         // Check that data was sent to the mailer.
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -19,11 +19,12 @@
         }
 
         // Set the email subject.
-        $subject = "New enquiry from $name";
+        $subject = "New Regional Partner enquiry from $name - $region";
 
         // Build the email content.
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n";
+        $email_content .= "Region: $region\n";
         $email_content .= "Message:\n$message\n";
 
         // Build the email headers.

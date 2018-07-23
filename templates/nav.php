@@ -2,7 +2,7 @@
 <nav>
 	<div id="side-nav" class="side-nav-container px-1 py-5 d-none d-sm-flex fixed">
 		<div class="nav-item">
-			<i id="nav-menu-btn" class="material-icons" data-popup-open="nav-menu-popup">menu</i>
+			<i id="nav-menu-btn" class="material-icons hover" data-popup-open="nav-menu-popup">menu</i>
 		</div>
 		<div class="nav-item">
 			<div class="logo">
@@ -11,9 +11,9 @@
 		</div>
 		<div class="nav-item">
 			<ul>
-				<li class="mb-3"><i class="fab fa-twitter"></i></li>
-				<li class="mb-3"><i class="fab fa-facebook-f"></i></li>
-				<li><i class="fab fa-instagram"></i></li>
+				<li class="mb-3 hover"><a href="https://twitter.com/tagtheagency"><i class="fab fa-twitter"></i></a></li>
+				<li class="mb-3 hover"><a href="https://www.facebook.com/TAGTheAgency/"></a><i class="fab fa-facebook-f"></i><a href=""></a></li>
+				<li class="hover"><a href="https://www.instagram.com/tagtheagency/"></a><i class="fab fa-instagram"></i><a href=""></a></li>
 			</ul>
 		</div>
 	</div>
@@ -45,11 +45,11 @@
 					<p class="menu-logo">Regional<strong>Partners</strong></p>
 				</div>
 				<div class="col-9 mt-3">
-					<ul>
-						<li <?php if ($currentPage == "home"){?> class="active-page" <?php } ?>><a href="<?= $path  ?>">Home</a></li>
-						<li <?php if ($currentPage == "about"){?> class="active-page" <?php } ?>><a href="<?= $path  ?>about/">About</a></li>
-						<li class="hover" data-popup-open="contact-popup" data-popup-close="nav-menu-popup">Contact</li>
-						<li>TAG</li>
+					<ul class="d-flex flex-column">
+						<li class="d-inline-block <?php if ($currentPage == 'home'){?> active-page <?php } ?>"><a href="<?= $path  ?>">Home</a></li>
+						<li class="d-inline-block <?php if ($currentPage == 'about'){?> active-page <?php } ?>"><a href="<?= $path  ?>about/">About</a></li>
+						<li class="d-inline-block hover" data-popup-open="contact-popup" data-popup-close="nav-menu-popup">Contact</li>
+						<li class="d-inline-block "><a href="https://tagtheagency.com" target="_blank">TAG The Agency</a></li>
 					</ul>
 				</div>
 			</div>
