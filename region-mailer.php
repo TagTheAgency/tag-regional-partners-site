@@ -1,5 +1,4 @@
 <?php
-
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
@@ -8,7 +7,7 @@
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["message"]);
 		$recipient = 'charlie@tagtheagency.com';
-        $region = trim($_POST["region"]);;
+        $region = trim($_POST["region"]);
 
         // Check that data was sent to the mailer.
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -46,5 +45,4 @@
         http_response_code(403);
         echo "There was a problem with your submission, please try again.";
     }
-
 ?>

@@ -46,6 +46,4 @@ $( document ).ready(function() {
 		$('#region-message').empty().html("Looking to become our Regional Partner for <span style='font-weight: 600'>"+regionName+"</span>? Fill in your details below and we’ll be in touch.");
 	});
 
-
-
 });

@@ -65,7 +65,7 @@ hr{
 }
 
 .secondary-text{
-	color: $secondaryColor;
+	color: $secondaryColor !important;
 }
 
 .text-white{
@@ -327,11 +327,6 @@ footer{
 // CONTACT
 // ============================
 
-.contact-popup-container, .region-popup-container{
-    display: none;
-    z-index: 40;
-}
-
 .form-style{
     color: $secondaryColor;
     border: none;
@@ -354,6 +349,20 @@ footer{
         opacity: 0.5;
         color: $secondaryColor;
     }
+}
+
+label{
+    font-weight: 500;
+    color: $secondaryColor !important;
+}
+
+// ============================
+// POP UPS
+// ============================
+
+.contact-popup-container, .region-popup-container, .sign-up-popup-container{
+    display: none;
+    z-index: 40;
 }
 
 .contact-popup{

@@ -10,8 +10,7 @@
 				<h2 class="primary-text mb-3 mb-md-0">Intersted in becoming a TAG Regional Partner?</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna</p>
 				<div class="d-flex mt-4">
-					<div class="button mr-4 button-outline">Learn More</div>
-					<div class="button button-filled">Sign Up</div>
+					<div class="button button-filled" data-popup-open="sign-up-popup">Sign Up Today</div>
 				</div>
 			</div>
 		</div>

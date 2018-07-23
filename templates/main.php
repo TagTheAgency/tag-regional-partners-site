@@ -69,6 +69,7 @@ succeed. Get in touch to hear more on how we can help you achieve your goals.</p
 			<div class="col-12 col-md-9 col-xl-10 row justify-content-center">
 				<div class="col-12 text-center">
 					<h2 class="primary-text px-md-5 mb-3">We are currently looking for regional partners in:</h2>
+					<p>Click an icon to get in touch with us!</p>
 				</div>
 				<div id="Auckland" class="col-10 col-md-4 p-4 p-md-5 text-center region" data-popup-open="region-popup">
 					<div class="img-container px-lg-4">

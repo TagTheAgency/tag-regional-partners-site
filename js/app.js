@@ -1,31 +1,22 @@
 $(function() {
-    // Get the form.
-    var contactForm = $('#contact-me');
-    var regionForm = $('#region-form');
 
-    // Get the messages div.
-	$(contactForm).submit(function(event) {
-        // Stop the browser from submitting the form.
-        event.preventDefault();
+    function getContactForm(element){
 
-    	var contactFormData = $(contactForm).serialize();
+        // Get the messages div.
+    	$(element).submit(function(event) {
+            // Stop the browser from submitting the form.
+            event.preventDefault();
 
-    	$.ajax({
-    	    type: 'POST',
-    	    url: $(contactForm).attr('action'),
-    	    data: contactFormData
+        	var contactFormData = $(element).serialize();
+
+        	$.ajax({
+        	    type: 'POST',
+        	    url: $(element).attr('action'),
+        	    data: contactFormData
+        	});
     	});
-	});
-
-	$(regionForm).submit(function(event) {
-        event.preventDefault();
-
-    	var regionFormData = $(regionForm).serialize();
-
-    	$.ajax({
-    	    type: 'POST',
-    	    url: $(regionForm).attr('action'),
-    	    data: regionFormData
-    	});
-	});
+    }
+    getContactForm('#contact-me');
+    getContactForm('#region-form');
+    getContactForm('#footer-region-form');
 });
