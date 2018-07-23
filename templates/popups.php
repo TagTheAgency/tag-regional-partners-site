@@ -27,10 +27,10 @@
 </div>
 <div class="region-popup-container container-fluid w-100 vh-100 fixed row justify-content-center align-items-center ml-0" data-popup="region-popup">
 	<div class="overlay" data-popup-close="region-popup"></div>
-	<div class="container">
-		<div class="contact-popup">
-			<div class="row justify-content-center">
-				<div class="col-10 col-md-7">
+	<div class="container-fluid h-100">
+		<div class="row justify-content-center align-content center h-100">
+			<div class="row col-12 col-md-7 justify-content-center align-content-center h-auto">
+				<div class="col-12 row m-0 p-0 vh-50 h-md-auto">
 					<div class="col-12 primary py-3 text-right">
 						<i class="material-icons pointer pr-1 text-white hover" data-popup-close="region-popup">close</i>
 					</div>
@@ -38,16 +38,16 @@
 						<h2 class="mb-3">Become a partner.</h2>
 						<p id="region-message">Looking to become our Regional Partner? Fill in your details below and we’ll be in touch.</p>
 					</div>
-					<div id="region-form-container" class="col-12 white p-5">
-						<form method="POST" id="region-form" class="contact-form" action="region-mailer.php">
-							<input id="region" class="form-style" type="text" name="region" value="" hidden>
-							<input class="form-style" type="text" name="name" placeholder="Name" required>
-							<input class="form-style" type="email" name="email" placeholder="Email" required>
-							<input class="form-style" type="message" name="message" placeholder="Message" required>
-							<br>
-							<input class="button button-filled" type="submit" value="Send">
-						</form>
-					</div>
+				</div>
+				<div id="region-form-container" class="col-12 white p-5 vh-50 h-md-auto">
+					<form method="POST" id="region-form" class="contact-form" action="region-mailer.php">
+						<input id="region" class="form-style" type="text" name="region" value="" hidden>
+						<input class="form-style" type="text" name="name" placeholder="Name" required>
+						<input class="form-style" type="email" name="email" placeholder="Email" required>
+						<input class="form-style" type="message" name="message" placeholder="Message" required>
+						<br>
+						<input class="button button-filled" type="submit" value="Send">
+					</form>
 				</div>
 			</div>
 		</div>
