@@ -365,6 +365,12 @@ label{
     z-index: 40;
 }
 
+@media ( max-width: 576px){
+    .contact-popup-container, .region-popup-container, .sign-up-popup-container{
+        font-size: 11px;
+    }
+}
+
 .contact-popup{
     h4{
         font-weight: 600;
