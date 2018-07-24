@@ -8,7 +8,7 @@
 			</div>
 			<div class="col-12 col-md-8 mt-3 mt-md-0">
 				<h2 class="primary-text mb-3 mb-md-0">Intersted in becoming a TAG Regional Partner?</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna</p>
+				<?php if( $currentPage == 'home'): ?><p>Select from one of the regions above or click the button below.</p><?php endif; ?>
 				<div class="d-flex mt-4">
 					<div class="button button-filled" data-popup-open="sign-up-popup">Sign Up Today</div>
 				</div>

@@ -32,7 +32,7 @@ $( document ).ready(function() {
 	$('.contact-form').submit(function(){
 		$(this).fadeOut(200);
 		setTimeout(function(){
-			$('#contact-form-container, #region-form-container').html(
+			$('#contact-form-container, #region-form-container, #footer-region-form-container').html(
 				"<div><h4 class='primary-text mb-2'>Your message has been sent.</h4></div>"+
 				"<div>Thank You!</div>"
 			);
@@ -44,6 +44,13 @@ $( document ).ready(function() {
 		var regionName = $(this).attr('id').replace(/-/g, " ");
 		$('#region').val(regionName);
 		$('#region-message').empty().html("Looking to become our Regional Partner for <span style='font-weight: 600'>"+regionName+"</span>? Fill in your details below and we’ll be in touch.");
+	});
+
+	$('[data-scroll-to]').click(function(){
+		var target_element = $(this).attr('data-scroll-to');
+		$("html, body").animate({
+			scrollTop: $('#'+target_element).offset().top
+		}, 1000);
 	});
 
 });

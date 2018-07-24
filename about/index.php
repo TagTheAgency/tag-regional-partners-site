@@ -17,7 +17,7 @@
 				<div class="row justify-content-center">
 					<div class="col-12 col-md-9 col-xl-10 row justify-content-center justify-content-md-start align-items-md-end">
 						<div class="col-12 col-md-7">
-							<h2 class="primary-text">About TAG <br>Regional Partners</h2>
+							<h1 class="primary-text">About TAG <br>Regional Partners</h1>
 						</div>
 						<div class="col-12 col-md-3">
 							<div class="img-container">

@@ -11,9 +11,9 @@
 		</div>
 		<div class="nav-item">
 			<ul>
-				<li class="mb-3 hover"><a href="https://twitter.com/tagtheagency"><i class="fab fa-twitter"></i></a></li>
-				<li class="mb-3 hover"><a href="https://www.facebook.com/TAGTheAgency/"></a><i class="fab fa-facebook-f"></i><a href=""></a></li>
-				<li class="hover"><a href="https://www.instagram.com/tagtheagency/"></a><i class="fab fa-instagram"></i><a href=""></a></li>
+				<li class="mb-3 hover"><a href="https://twitter.com/tagtheagency" target="_blank"><i class="fab fa-twitter"></i></a></li>
+				<li class="mb-3 hover"><a href="https://www.facebook.com/TAGTheAgency/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+				<li class="hover"><a href="https://www.instagram.com/tagtheagency/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 			</ul>
 		</div>
 	</div>

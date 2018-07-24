@@ -77,6 +77,9 @@
 								<option value="Brisbane">Brisbane</option>
 								<option value="Melbourne">Melbourne</option>
 								<option value="Sydney" disabled>Sydney</option>
+								<option value="Singapore">Singapore</option>
+								<option value="New York">New York</option>
+								<option value="San Francisco">San Francisco</option>
 							</select>
 							<input class="form-style" type="text" name="name" placeholder="Name" required>
 							<input class="form-style" type="email" name="email" placeholder="Email" required>

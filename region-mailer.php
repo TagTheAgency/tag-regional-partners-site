@@ -21,13 +21,14 @@
         $subject = "New Regional Partner enquiry from $name - $region";
 
         // Build the email content.
-        $email_content = "Name: $name\n";
-        $email_content .= "Email: $email\n";
-        $email_content .= "Region: $region\n";
-        $email_content .= "Message:\n$message\n";
+        $email_content = "Name: <strong>$name</strong><br>\n";
+        $email_content .= "Email: <strong>$email</strong><br>\n";
+        $email_content .= "Region: <strong>$region</strong><br>\n";
+        $email_content .= "Message: <strong>$message</strong>\n";
 
         // Build the email headers.
         $email_headers = "From: $name <$email>";
+        $email_headers = "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
         // Send the email.
         if (mail($recipient, $subject, $email_content, $email_headers)) {
