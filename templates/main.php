@@ -36,7 +36,7 @@
 		<div class="row justify-content-center">
 			<div class="col-12 col-md-9 col-xl-10 row justify-content-center justify-content-md-start text-center text-md-left mb-4">
 				<div class="col-12 col-md-4 order-2 order-md-1 header pt-1">
-					<h1 class="primary-text header">Become a <br>Regional Partner</h1>
+					<h1 class="primary-text">Become a <br>Regional Partner</h1>
 				</div>
 				<div class="col-12 col-md-5 mb-3 mb-md-0 order-1 order-md-2">
 					<div class="img-container">
