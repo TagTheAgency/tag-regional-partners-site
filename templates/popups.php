@@ -12,7 +12,7 @@
 						<p>We look forward to hearing from you.</p>
 					</div>
 					<div id="contact-form-container" class="col-12 white p-4 p-md-5">
-						<form method="POST" id="contact-me" class="contact-form" action="mailer.php">
+						<form method="POST" id="contact-me" class="contact-form" action="/mailer.php">
 							<input class="form-style" type="text" name="name" placeholder="Name" required>
 							<input class="form-style" type="email" name="email" placeholder="Email" required>
 							<input class="form-style" type="message" name="message" placeholder="Message" required>
@@ -39,7 +39,7 @@
 						<p id="region-message">Looking to become our Regional Partner? Fill in your details below and we’ll be in touch.</p>
 					</div>
 					<div id="region-form-container" class="col-12 white p-4 p-md-5">
-						<form method="POST" id="region-form" class="contact-form" action="region-mailer.php">
+						<form method="POST" id="region-form" class="contact-form" action="/region-mailer.php">
 							<input id="region" class="form-style" type="text" name="region" value="" hidden>
 							<input class="form-style" type="text" name="name" placeholder="Name" required>
 							<input class="form-style" type="email" name="email" placeholder="Email" required>
@@ -67,7 +67,7 @@
 						<p id="region-message">Looking to become our Regional Partner? Fill in your details below and we’ll be in touch.</p>
 					</div>
 					<div id="footer-region-form-container" class="col-12 white p-4 p-md-5">
-						<form method="POST" id="footer-region-form" class="contact-form" action="region-mailer.php">
+						<form method="POST" id="footer-region-form" class="contact-form" action="/region-mailer.php">
 							<label for="select-region secondary-text mb-3 mb-sm-0">Select a region</label>
 							<select id="region" class="custom-select mb-3" name="region" required>
 								<option value="" selected hidden>Please select a region</option>
