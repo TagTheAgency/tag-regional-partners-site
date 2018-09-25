@@ -9,7 +9,7 @@
 					</div>
 					<div class="col-12 px-4 px-md-5 pb-5 pt-1 primary text-white">
 						<h2 class="mb-3">Get In Touch.</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+						<p>We look forward to hearing from you.</p>
 					</div>
 					<div id="contact-form-container" class="col-12 white p-4 p-md-5">
 						<form method="POST" id="contact-me" class="contact-form" action="mailer.php">

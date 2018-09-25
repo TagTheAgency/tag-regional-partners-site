@@ -24,6 +24,18 @@ h2{
 p{
 	font-weight: 300;
 	line-height: 25px;
+  margin-bottom: 25px;
+}
+
+ul {
+  list-style-position: inside;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+
+  li {
+    font-weight: 300;
+    line-height: 25px;
+  }
 }
 
 a{

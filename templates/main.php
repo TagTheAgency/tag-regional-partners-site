@@ -3,7 +3,9 @@
 		<div class="row justify-content-center">
 			<div class="col-12 col-md-9 col-xl-10 row justify-content-center justify-content-md-start">
 				<div class="col-12 col-md-6 order-2 order-md-1 header pt-1 text-center text-md-left">
-					<h1 class="primary-text mb-4">Love the art <br> of digital storytelling?</h1>
+					<h1 class="primary-text mb-4">Digital Storyteller? <br/>
+						Social Media Marketer?<br/>
+						Digital Advertiser?</h1>
 					<div class="button button-filled" data-scroll-to="region-container">Get Started</div>
 				</div>
 				<div class="col-12 col-md-5 mb-3 mb-md-0 order-1 order-md-2">
@@ -18,15 +20,9 @@
 		<div class="row justify-content-center">
 			<div class="col-12 col-md-9 col-xl-10 row justify-content-center">
 				<div class="col-12">
-					<p>Always wanted to start your own digital ad agency? Become a TAG Regional Partner, and we’ll help you achieve your goals!</p>
-					<br>
-					<p>Why? TAG The Agency was established in 2015 as a creative ad agency that specialises in digital stories for brands. We also built the agency with a focus on disruption, not in the day to day world of advertising. The industry is full of Agencies pushing their staff to the breaking point, that's not healthy, nor cool. At TAG The Agency, our world is different.</p>
-					<br>
-					<p>We have witnessed great success for the company and the people within it, working and producing stories for some fantastic brands. But, we didn’t want to stop there...</p>
-					<br>
-					<p>We want to have an impact on the world of advertising, changing the culture of ‘overworked many for the success of a few’. We want to support those that are enthusiastic about creating their own advertising agency. Those that are bold enough to step out and start something new.</p>
-					<br>
-					<p>This lead to us establishing the Regional Partners platform,  where the partners are enabled to deliver exceptional stories, campaigns, and services, leveraging the talent and success of TAG The Agency.</p>
+					<p>Wanting to take your career to the next level? Always wanted to start your own digital ad agency? Become a TAG Regional Partner, and we’ll help you achieve that goals! </p>
+					<p>Why?</p>
+					<p>TAG The Agency was established in 2015 as a creative ad agency that specialises in digital stories for brands. We have spent time building a solid client base, with a wide range of brands, we’ve developed systems and software focused on delivery efficiency, learning from our decades of experience, from the failure and from our success, fine tuning our systems and service offering.  </p>
 				</div>
 				<div class="col-12">
 					<hr>
@@ -46,15 +42,21 @@
 			</div>
 			<div class="col-12 col-md-9 col-xl-10 row justify-content-center">
 				<div class="col-12">
-					<p>We have seen so many talented people start digital agencies, only to stop due to the full range of services needed to deliver exceptional campaigns. As a full-service agency you need, designers, developers, finance managers, creative, media buyers, the list goes on...</p>
-					<br>
-					<p>Through TAG The Agency we offer the ability, for a select few, to join the family as a Regional Partner.</p>
-					<br>
-					<p>Where you can start your own agency under the banner of TAG The Agency, use our case studies, brand equity and internal tools and of course our team of exceptional talent. From design and development through to video production the family at TAG The Agency can help you from the beginning. Enabling you to focus on your passion and we fill in the gaps.</p>
-					<br>
-					<p>We are disrupting how ad agencies work, join the family as a regional partner, and we’ll help you succeed.</p>
-					<br>
-					<p>Get in touch to hear more on how we can help you achieve your goals.</p>
+					<p>This is where it gets exciting! Being a regional partner you will have access to this and more. From day one you will have access to our brand reputation, case studies and the full team, from day one you will be a full service digital agency with:</p>
+					<ul>
+						<li>Established brand equity</li>
+						<li>Solid clients and case studies</li>
+						<li>Market leading technology</li>
+						<li>Full digital service offering from designers to developers</li>
+						<li>Support, advice, mentoring and training</li>
+						<li>Access to TAG The Agency products</li>
+						<li>Full finance management</li>
+						<li>Local advertising and marketing</li>
+						<li>Working with the best in the industry</li>
+						<li>Access to our platform, processes and systems</li>
+						<li>LinkedIn expert management for 3 months to build leads and network</li>
+					</ul>
+					<p>Become part of the TAG family, join us as a regional partner and become part of something very exciting!</p>
 				</div>
 				<div class="col-12">
 					<hr>
