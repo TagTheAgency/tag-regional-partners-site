@@ -6,7 +6,7 @@
 				$name = str_replace(array("\r","\n"),array(" "," "),$name);
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["message"]);
-		$recipient = 'tom.reidy@tagtheagency.com';
+		    $recipient = 'tom.reidy@tagtheagency.com';
         $region = trim($_POST["region"]);
 
         // Check that data was sent to the mailer.
@@ -27,7 +27,7 @@
         $email_content .= "Message: <strong>$message</strong>\n";
 
         // Build the email headers.
-        $email_headers = "From: $name <$email>";
+        $email_headers = "From: Regional Partners Enquiry <noreply@tagtheagency.com>";
         $email_headers = "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
         // Send the email.
