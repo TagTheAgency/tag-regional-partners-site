@@ -20,7 +20,7 @@
 		<div class="row justify-content-center">
 			<div class="col-12 col-md-9 col-xl-10 row justify-content-center">
 				<div class="col-12">
-					<p>Wanting to take your career to the next level? Always wanted to start your own digital ad agency? Become a TAG Regional Partner, and we’ll help you achieve that goals! </p>
+					<p>Wanting to take your career to the next level? Always wanted to start your own digital ad agency? Purchase a TAG Regional Partnership licence, and we’ll help you achieve that goals! </p>
 					<p>Why?</p>
 					<p>TAG The Agency was established in 2015 as a creative ad agency that specialises in digital stories for brands. We have spent time building a solid client base, with a wide range of brands, we’ve developed systems and software focused on delivery efficiency, learning from our decades of experience, from the failure and from our success, fine tuning our systems and service offering.  </p>
 				</div>

@@ -2,6 +2,9 @@
 <nav>
 	<div id="side-nav" class="side-nav-container px-1 py-5 d-none d-sm-flex fixed">
 		<div class="nav-item">
+			<a href="https://tagtheagency.com" target="_blank"><img src="img/TAG_logo_tag_white_whitetag.png" style="width: 150px"/></a>
+		</div>
+		<div class="nav-item">
 			<i id="nav-menu-btn" class="material-icons hover" data-popup-open="nav-menu-popup">menu</i>
 		</div>
 		<div class="nav-item">
@@ -17,14 +20,19 @@
 			</ul>
 		</div>
 	</div>
-	<div class="primary mobile-nav d-flex d-sm-none py-4 px-2 text-white container fixed justify-content-center">
+	<div class="primary mobile-nav d-flex d-sm-none py-2 px-2 text-white container fixed justify-content-center">
 		<div class="row justify-content-between w-100">
-			<div class="col-auto">
+			<div class="col-auto pt-2">
 				<div class="nav-item">
 					<i id="nav-menu-btn" class="material-icons" data-popup-open="nav-menu-popup">menu</i>
 				</div>
 			</div>
 			<div class="col-auto">
+				<div class="nav-item">
+					<a href="https://tagtheagency.com" target="_blank"><img src="img/TAG_logo_tag_white_whitetag.png" style="width: 120px"/></a>
+				</div>
+			</div>
+			<div class="col-auto  pt-2">
 				<div class="nav-item">
 					<div>
 						<span><a href="<?= $path  ?>">Regional<strong>Partners</strong></a></span>
@@ -41,6 +49,10 @@
 						<i class="material-icons pointer">close</i>
 					</div>
 				</div>
+				<div class="col-9 my-1">
+					<a href="https://tagtheagency.com"><img src="img/TAG_logo_tag_white_whitetag.png" style="width: 200px"/></a>
+				</div>
+
 				<div class="col-9 my-5">
 					<p class="menu-logo">Regional<strong>Partners</strong></p>
 				</div>
